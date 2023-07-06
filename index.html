@@ -1,0 +1,225 @@
+ <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d4f61bed88.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-end developer</p>
+                <h1>Hi, i'm <span>Jitendra</span> <br>From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------About---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/user2.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> I'm Jitendra Mali, a passionate front-end web developer with a diverse skill set and a degree in Computer Science. 
+                        I specialize in crafting visually appealing and user-friendly websites that leave a lasting impact.
+
+                        With a solid educational background in B.Tech Computer Science, I have developed a strong foundation in programming and problem-solving. My expertise lies in front-end web development, where I combine my creativity and technical skills to bring ideas to life. Using HTML, CSS, and JavaScript, 
+                        I create stunning and responsive user interfaces that engage and captivate visitors.
+                        
+                        Beyond web development, 
+                        I have a knack for programming languages such as C++ and Python. These languages allow me to build robust and efficient applications with clean code and optimal performance. I am always eager to take on new challenges and expand my programming horizons.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('eduction')">Eduction</p>
+                        </div>
+                        <div class="tab-content active-tab" id="skills">
+                            <ul>
+                                <li><span>Front-end</span><br>Create user interface</li>
+                                <li><span>Python</span><br>Application</li>
+                                <li><span>C++</span><br>Application</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="experience">
+                            <ul>
+                                <li><span>Experience</span><br>Web developer intern at Baskethunt pvt. ltd.</li>
+                                <li><span>Acedmic web developer</span><br>create website</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="eduction">
+                            <ul>
+                                <li><span>10th</span><br>Percentage-81.17</li>
+                                <li><span>12th</span><br>percentage-76.15</li>
+                                <li><span>Btech</span><br>Parsuing</li>
+                            </ul>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+ <!-- ---------------services--------------- -->
+
+  <!--   <div class="services" id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tenetur explicabo ipsum, doloribus voluptatibus alias 
+                        </p>
+                    <a href="#">learn more</a>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>ux/ui Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tenetur explicabo ipsum, doloribus voluptatibus alias 
+                        </p>
+                    <a href="#">learn more</a>
+                        
+                </div>
+                <div>
+                    <i class="fa-brands fa-connectdevelop"></i>
+                    <h2>app development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tenetur explicabo ipsum, doloribus voluptatibus alias 
+                        </p>
+                    <a href="#">learn more</a>
+                        
+                </div>
+            </div>
+        </div>
+    </div> -->
+<!-- ------------portfolio------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>PG life Website</h3>
+                        <p>PG life is a platform where you can find room according your need and can check properties</p>
+                        <a href="https://pglifee.000webhostapp.com/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>New Website</h3>
+                        <p>On the New  website you can find letest news according your favorait categories </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping app</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Inventore, quod, 
+                            eveniet quidem natus id doloremque </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+<!-- -------------------contact-------------------------  -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>jitendramali9979@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9079821903</p>
+                    <div class="social-icon">
+                        <a href=""><i class="fa-brands fa-facebook" target="_blank"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter" target="_blank"></i></a>
+                        <a href="https://www.instagram.com/mr_jitu_mali/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/jitendra-mali-a24b17227/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="image/JitendraMali_Resume.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &copy; jitendra. Made with<i class="fa-solid fa-heart"></i>Tech Eleven</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontent = document.getElementsByClassName("tab-content");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontents of tabcontent){
+                tabcontents.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0"
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px"
+        }
+    </script>
+    <script>
+        const scriptURL = "https://script.google.com/macros/s/AKfycbzqADnUAPsPIStYrd0WyctxtpDMpH1Q1IW6mP3_kVrleQHhiGGZ_Z141YyysQoKAqbvBQ/exec";
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit',e =>{
+            e.preventDefault()
+            fetch(scriptURL, {method: 'POST' , body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML= "Message sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000);
+                form.reset()
+            } )
+            .catch(error => console.error('Error!',error.message))
+        })
+    </script>
+  </body>
+</html>
